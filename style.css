@@ -1,0 +1,319 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #BF1811;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.font-change {
+  font-family: 'Open Sans', sans-serif;
+  margin: 2% 0% 2% 0%;
+}
+
+.title {
+  margin: 2% 0% 2% 2%;
+}
+
+.user {
+  padding: .5% 0% 0% 0%;
+  text-align: right;
+}
+
+.user-login {
+  color: #FED953;
+  font-size: 1em;
+}
+
+.user-login-icons {
+  width: 2em;
+}
+
+.logo {
+  font-size: 2.5em;
+  margin: 0% 0% 2% 38%;
+  width: 7em;
+}
+
+.logo-icon {
+  vertical-align: bottom;
+  width: 1.5em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-threat {
+  margin: 2% 3% 2% 2%;
+  width: 10em;
+}
+
+.weapon-link {
+  margin: 2% 3% 0% 0%;
+  width: 14em;
+}
+
+.evidence {
+  margin: 2% 0% 0% 0%;
+  width: 10em;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  width: 2em;
+  color: #FFFFFF;
+  vertical-align: middle;
+  margin: 0% 2% 0% 2%;
+}
+
+h1 {
+  font-size: 2.25em;
+  margin: 2% 0% 2% 1%;
+}
+
+.threats {
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0% 1%;
+}
+
+article {
+  box-shadow: 0 0 1em #BEBFBF;
+  margin: 0% 0% 1% 0%;
+  width: 25em;
+}
+
+.card-arrow-icon {
+  margin: 5% 87% 0% 0%;
+}
+
+.threat-level {
+  margin: -9% 5% 0% 0%;
+}
+
+.threat-rate {
+  font-size: 2.5em;
+  margin: 0% 12% 0% 0%;
+}
+
+.card-text {
+  margin: 0% 0% 0% 5%;
+}
+
+.date {
+  font-size: .8em;
+  color: #C3C4C6;
+  margin: 0 auto;
+}
+
+.link {
+  background: #EFEFEF;
+  font-size: .75em;
+  height: 29px;
+  margin: 5% 7% 6% 0%;
+  padding: 2% 0% 10% 3%;
+}
+
+.weapon {
+  font-size: .8em;
+}
+
+.tools {
+  margin: 0% 0% 6% 0%;
+}
+
+.color {
+  color: #FED953;
+  font-size: 2.5em;
+  margin: 0% 0% 8% 1%;
+}
+
+.donald {
+  background-image: url(images/donald.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  text-align: right;
+  /*margin: -5% 0% 0% 0%;*/
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-end;*/
+}
+
+.nuclear {
+  background-image: url(images/nuclear.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.global-warming {
+  background-image: url(images/global-warming.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.robots {
+  background-image: url(images/robot.jpg);
+  background-size: 100% 220%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.aliens {
+  background-image: url(images/alien.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.meteorite {
+  background-image: url(images/meteorite.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.zombies {
+  background-image: url(images/zombies.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} 
+
+.apocalypse {
+  background-image: url(images/apocalypse.jpg);
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 1039px) {
+
+  article {
+    margin: 0% 1% 1% 1%;
+    width: 16em;
+  }
+
+  img {
+    margin: 0% 2% 0% 2%;
+  }
+
+  .logo {
+    margin: 0% 0% 2% -6%;
+  }
+
+  .card-arrow-icon {
+    margin: 5% 81% 0% 0%;
+  }
+
+  .threat-level {
+    margin: -12% 5% 0% 0%;
+  }
+
+  .tools-weapon {
+    height: 3.5em;
+  }
+
+  .evidence {
+    margin: 2% 26% 0% 0%;
+  }
+
+}
+
+@media only screen and (max-width: 852px) {
+
+  article {
+    width: 13em;
+  }
+
+  img {
+    margin: 0% 2% 0% 2%;
+  }
+
+  .logo {
+    margin: 0% 0% 2% -2%;
+  }
+
+  .evidence {
+    margin: 2% 9% 0% 0%;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  article {
+    margin: 0% 1% 2% 1%;
+    width: 55em;
+  }
+
+  .user {
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-threat {
+    margin: 2% 3% 0% 2%;
+  }
+
+  .weapon-link {
+    margin: 5% 0% 0% 8%;
+  }
+
+  .evidence {
+    margin: 5% 0% 0% 0%;
+  }
+
+  .logo {
+    margin: 5% 0% 2% 5%;
+  }
+
+  .title {
+    margin: 5% 0% 5% 2%;
+  }
+
+  .card-arrow-icon {
+    margin: 5% 88% 0% 0%;
+  }
+
+  .threat-level {
+    margin: -8% 5% 0% 0%;
+  }
+}
